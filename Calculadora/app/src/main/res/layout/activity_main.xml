@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="3"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/4"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/5"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="5"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/6"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="6"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/7"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="7"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/8"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="8"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/9"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="9"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/0"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <Button
+        android:id="@+id/."
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="."
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <Button
+        android:id="@+id/igual"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="="
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <Button
+        android:id="@+id/mas"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <Button
+        android:id="@+id/menos"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/mult"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <Button
+        android:id="@+id/Div"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="/"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/raiz"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="√"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/fact"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="!"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+
+    <Button
+        android:id="@+id/elev"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="^"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Button
+        android:id="@+id/borrar"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="<"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:text="Subneteo"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <Button
+        android:id="@+id/masc"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="/"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="576dp" />
+
+    <Button
+        android:id="@+id/rec"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:text="recuperar"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="645dp" />
+    <Button
+        android:id="@+id/inic"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="AC"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="334dp"
+        android:layout_height="112dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+</android.support.constraint.ConstraintLayout>
